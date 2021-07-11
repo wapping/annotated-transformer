@@ -1,6 +1,11 @@
 # About
 
-This is an implementation of the transformer from ['Attention is All You Need'](https://arxiv.org/abs/1706.03762), based on the code of a [post](http://nlp.seas.harvard.edu/2018/04/03/attention.html). 
+This is an implementation of the transformer from ['Attention is All You Need'](https://arxiv.org/abs/1706.03762), based on the code of a [post](http://nlp.seas.harvard.edu/2018/04/03/attention.html).  We reorganized the code for the following reasons:
+
+- The code in the post was organized for `.ipynb` editors, but we want to run the code by python command or python IDE (like PyCharm).
+- The post did not give running environment. Some problems occered when we ran the code as the post.
+- The necessary datasets and models are downloaded by the code, which will lead to connection errors in some areas. We provide the datasets and installation packges of the models.
+
 
 # Requirements
 
