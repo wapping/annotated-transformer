@@ -18,3 +18,17 @@ spacy==2.2.2
 torchtext==0.6.0
 ```
 
+#Install Models
+
+```
+cd packages
+pip install en_core_web_sm-2.2.5.tar.gz
+pip install de_core_news_sm-2.2.5.tar.gz
+```
+
+# Train
+
+```
+python transformer.py
+```
+
